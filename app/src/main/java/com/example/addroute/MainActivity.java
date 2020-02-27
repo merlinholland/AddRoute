@@ -50,7 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
     // 获取ROOT权限
     public boolean get_root(){
-        boolean ret = false;
+        boolean ret;
         if (is_root()){
             Toast.makeText(mCtx, "已经具有ROOT权限!", Toast.LENGTH_LONG).show();
             ret = true;
